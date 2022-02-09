@@ -26,10 +26,12 @@ public class WhatIsIEnumerable : MonoBehaviour
         Debug.Log("ここまで実行した 4");
         yield return null;
 
+
         for (int i = 5; i < 10; i++)
         {
             Debug.Log($"ここまで実行した {i}");
             yield return null;
         }
+
     }
 }
